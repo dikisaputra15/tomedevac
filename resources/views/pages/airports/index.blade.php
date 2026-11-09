@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title', 'Airports')
-@section('page-title', 'Fiji Airports')
+@section('page-title', 'Tonga Airports')
 
 @push('styles')
 <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
@@ -476,7 +476,7 @@
 <script>
 // === Inisialisasi Peta ===
 const map = new google.maps.Map(document.getElementById('map'), {
-    center: { lat: -17.7134, lng: 178.0650 },
+    center: { lat: -21.1790, lng: -175.1982 },
     zoom: 6,
     mapTypeId: 'roadmap',
     mapTypeControl: true,
@@ -1006,7 +1006,7 @@ function addAirportMarkers(data) {
                 ${airport.address || 'N/A'}
                 ${airport.city_name ? ', ' + airport.city_name : ''}
                 ${airport.district_name ? ', ' + airport.district_name : ''}
-                ${airport.province_name ? ', ' + airport.province_name : ''}, Fiji<br>
+                ${airport.province_name ? ', ' + airport.province_name : ''}, Tonga<br>
             <strong>Telephone:</strong> ${airport.telephone || 'N/A'}<br>
             <strong>Website:</strong> ${airport.website || 'N/A'}<br>
         `;

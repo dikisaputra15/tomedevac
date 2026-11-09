@@ -2,7 +2,7 @@
 
 @section('title', 'Dashboard')
 
-@section('page-title', 'Fiji Crisis Management Tools')
+@section('page-title', 'Tonga Crisis Management Tools')
 
 @push('styles')
 
@@ -717,7 +717,7 @@
             <b>Role:</b> Highest commander of the MPF
         </p>
         <p class="p-modal text-justify">
-            Functions as the supreme professional and operational leader of the MPF, exercising overall command, control, and administration of the national police organization under the authority of the MOHA. The Chief is responsible for formulating policing strategies, directing nationwide law enforcement and internal security operations, overseeing organizational management and personnel, coordinating territorial and specialized police commands, and ensuring the implementation of government policies, laws, and public security objectives throughout Fiji.
+            Functions as the supreme professional and operational leader of the MPF, exercising overall command, control, and administration of the national police organization under the authority of the MOHA. The Chief is responsible for formulating policing strategies, directing nationwide law enforcement and internal security operations, overseeing organizational management and personnel, coordinating territorial and specialized police commands, and ensuring the implementation of government policies, laws, and public security objectives throughout Tonga.
         </p>
         <p class="p-modal text-justify">
             <b>Responsibilities:</b>
@@ -1007,7 +1007,7 @@
                 A Small Private Hospital is a low-capacity facility offering basic inpatient and outpatient services, often functioning similarly to an expanded clinic. It primarily supports primary-level care.
             </p>
             <p class="text-justify">
-                <b><u>Note:</u></b> Unlike public hospitals, private hospitals in Fiji are not formally classified into tiers by the government. Instead, they are regulated under licensing frameworks and industry standards (e.g., <a href="https://www.mphaFiji.org/" target="_blank"> Fiji Private Hospitals’ Association</a>), while their functional classification is analytically derived based on bed capacity, clinical capability, diagnostic infrastructure, and specialist availability.
+                <b><u>Note:</u></b> Unlike public hospitals, private hospitals in Tonga are not formally classified into tiers by the government. Instead, they are regulated under licensing frameworks and industry standards (e.g., <a href="https://www.mphaTonga.org/" target="_blank"> Tonga Private Hospitals’ Association</a>), while their functional classification is analytically derived based on bed capacity, clinical capability, diagnostic infrastructure, and specialist availability.
             </p>
             <h6 class="fw-bold">
                 <b>Role</b>
@@ -1218,7 +1218,7 @@
                 A Medium Private Hospital is a moderate-capacity facility providing general and selected specialist services. It primarily supports secondary-level care, managing common and moderately complex conditions.
             </p>
             <p class="text-justify">
-                <b><u>Note:</u></b> Unlike public hospitals, private hospitals in Fiji are not formally classified into tiers by the government. Instead, they are regulated under licensing frameworks and industry standards (e.g., <a href="https://www.mphaFiji.org/" target="_blank">Fiji Private Hospitals’ Association</a>), while their functional classification is analytically derived based on bed capacity, clinical capability, diagnostic infrastructure, and specialist availability.
+                <b><u>Note:</u></b> Unlike public hospitals, private hospitals in Tonga are not formally classified into tiers by the government. Instead, they are regulated under licensing frameworks and industry standards (e.g., <a href="https://www.mphaTonga.org/" target="_blank">Tonga Private Hospitals’ Association</a>), while their functional classification is analytically derived based on bed capacity, clinical capability, diagnostic infrastructure, and specialist availability.
             </p>
             <h6 class="fw-bold">
                 <b>Role</b>
@@ -1286,7 +1286,7 @@
                 <b>Overview</b>
             </h6>
             <p class="text-justify">
-                A Secondary-Level General Hospital in Fiji refers to general hospitals located outside major cities, typically at the state/regional or district level. These hospitals provide broad multi-specialty services but do not possess full tertiary-level subspecialty capability.
+                A Secondary-Level General Hospital in Tonga refers to general hospitals located outside major cities, typically at the state/regional or district level. These hospitals provide broad multi-specialty services but do not possess full tertiary-level subspecialty capability.
             </p>
             <h6 class="fw-bold">
                 <b>Role</b>
@@ -1349,7 +1349,7 @@
                 <b>Overview</b>
             </h6>
             <p class="text-justify">
-                A Regional/State Hospital is a core secondary-level facility by definition in Fiji’s health system. It is designed to function as the main referral hospital in a state or region, providing expanded clinical services beyond district level.
+                A Regional/State Hospital is a core secondary-level facility by definition in Tonga’s health system. It is designed to function as the main referral hospital in a state or region, providing expanded clinical services beyond district level.
             </p>
             <h6 class="fw-bold">
                 <b>Role</b>
@@ -1468,10 +1468,10 @@
                 <b>Overview</b>
             </h6>
             <p class="text-justify">
-                A Large Private Hospital in Fiji is a high-capacity, multi-specialty facility that provides comprehensive secondary to limited tertiary-level care. These hospitals are typically located in major urban centers and are equipped with advanced medical technology and a wide range of specialist services.
+                A Large Private Hospital in Tonga is a high-capacity, multi-specialty facility that provides comprehensive secondary to limited tertiary-level care. These hospitals are typically located in major urban centers and are equipped with advanced medical technology and a wide range of specialist services.
             </p>
             <p class="text-justify">
-                <b><u>Note:</u></b> Unlike public hospitals, private hospitals in Fiji are not formally classified into tiers by the government. Instead, they are regulated under licensing frameworks and industry standards (e.g., <a href="https://www.mphaFiji.org/" target="_blank">Fiji Private Hospitals’ Association</a>), while their functional classification is analytically derived based on bed capacity, clinical capability, diagnostic infrastructure, and specialist availability.
+                <b><u>Note:</u></b> Unlike public hospitals, private hospitals in Tonga are not formally classified into tiers by the government. Instead, they are regulated under licensing frameworks and industry standards (e.g., <a href="https://www.mphaTonga.org/" target="_blank">Tonga Private Hospitals’ Association</a>), while their functional classification is analytically derived based on bed capacity, clinical capability, diagnostic infrastructure, and specialist availability.
             </p>
             <h6 class="fw-bold">
                 <b>Role</b>
@@ -1541,7 +1541,7 @@
                 <b>Overview</b>
             </h6>
             <p class="text-justify">
-                A Tertiary Public Hospital in Fiji represents the highest level of care, typically consisting of major city General Hospitals, Teaching Hospitals, and Specialist Hospitals located in key urban centers including Yangon, Mandalay, and Nay Pyi Taw. These hospitals are national referral centers, managing the most complex and specialized medical conditions while also being hubs for medical education and research.
+                A Tertiary Public Hospital in Tonga represents the highest level of care, typically consisting of major city General Hospitals, Teaching Hospitals, and Specialist Hospitals located in key urban centers including Yangon, Mandalay, and Nay Pyi Taw. These hospitals are national referral centers, managing the most complex and specialized medical conditions while also being hubs for medical education and research.
                 However, a General Hospital is a hospital type rather than a fixed level of care, and is categorized as being either Secondary or Tertiary depending on its bed capacity, clinical capability, specialist, and subspecialist availability, and referral role.
                 Tertiary General Hospitals are typically large facilities (above ≈500 beds) with full subspecialty coverage, advanced diagnostics (e.g., MRI, CT, specialized laboratories), and the ability to perform complex procedures including cardiac or neurosurgery. Tertiary General Hospitals are national referral centers and are mostly located in major cities, including Yangon, Mandalay, and Nay Pyi Taw.
                 In contrast, Secondary General Hospitals are usually smaller (≈50 – 500 beds), provide core specialties with limited subspecialty, and manage moderate-complexity cases while referring advanced cases upward. Secondary General Hospitals typically are regional referral centers and are commonly located at the state/regional or district level.
@@ -1806,7 +1806,7 @@ document.addEventListener('change', function(e) {
 
 <script>    // --- Map Initialization ---
     const map = new google.maps.Map(document.getElementById('map'), {
-        center: { lat: -17.7134, lng: 178.0650 },
+        center: { lat: -21.1790, lng: -175.1982 },
         zoom: 6,
         mapTypeId: 'roadmap',
         mapTypeControl: true,
@@ -2536,7 +2536,7 @@ document.addEventListener('change', function(e) {
                         ${item.address || 'N/A'}
                         ${item.city_name ? ', ' + item.city_name : ''}
                         ${item.district_name ? ', ' + item.district_name : ''}
-                        ${item.province_name ? ', ' + item.province_name : ''}, Fiji <br>
+                        ${item.province_name ? ', ' + item.province_name : ''}, Tonga <br>
                     <strong>Website:</strong> ${item.website || 'N/A'} <br>
                 `;
             } else if (item.name) {
@@ -2550,7 +2550,7 @@ document.addEventListener('change', function(e) {
                         ${item.address || 'N/A'}
                         ${item.city ? ', ' + item.city : ''}
                         ${item.district ? ', ' + item.district : ''}
-                        ${item.provinces_region ? ', ' + item.provinces_region : ''}, Fiji <br>
+                        ${item.provinces_region ? ', ' + item.provinces_region : ''}, Tonga <br>
                 `;
             } else if (item.name_police) {
                 itemName = item.name_police;
@@ -2562,7 +2562,7 @@ document.addEventListener('change', function(e) {
                         ${item.location || 'N/A'}
                         ${item.city_name ? ', ' + item.city_name : ''}
                         ${item.district_name ? ', ' + item.district_name : ''}
-                        ${item.province_name ? ', ' + item.province_name : ''}, Fiji <br>
+                        ${item.province_name ? ', ' + item.province_name : ''}, Tonga <br>
                     <strong>Phone:</strong> ${item.telephone || 'N/A'}<br>
                     <strong>Fax:</strong> ${item.fax || 'N/A'}<br>
                     <strong>Email:</strong> ${item.email || 'N/A'}<br>
@@ -2578,7 +2578,7 @@ document.addEventListener('change', function(e) {
                         ${item.address || 'N/A'}
                         ${item.city ? ', ' + item.city : ''}
                         ${item.district ? ', ' + item.district : ''}
-                        ${item.provinces_region ? ', ' + item.provinces_region : ''}, Fiji <br>
+                        ${item.provinces_region ? ', ' + item.provinces_region : ''}, Tonga <br>
                     <strong>Phone:</strong> ${item.telephone || 'N/A'}<br>
                     <strong>Fax:</strong> ${item.fax || 'N/A'}<br>
                     <strong>Email:</strong> ${item.email || 'N/A'}<br>

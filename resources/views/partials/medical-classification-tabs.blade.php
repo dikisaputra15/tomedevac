@@ -58,7 +58,7 @@
 
 <template id="medical-government-health-insurance">
 <p class="text-justify">
-                Fiji does not maintain a comprehensive national health insurance system administered by the government. Healthcare coverage remains limited in scope and is not universally accessible. The closest equivalent is the Social Security Scheme (SSS) of Fiji, which provides the following cover:
+                Tonga does not maintain a comprehensive national health insurance system administered by the government. Healthcare coverage remains limited in scope and is not universally accessible. The closest equivalent is the Social Security Scheme (SSS) of Tonga, which provides the following cover:
             </p>
             <ul>
                     <li>Restricted primarily to formal sector workers</li>
@@ -66,7 +66,7 @@
                     <li>Provides a constrained range of benefits and healthcare services</li>
                 </ul>
             <h6 class="fw-bold">
-                <b>Social Security Scheme (SSS) Fiji</b>
+                <b>Social Security Scheme (SSS) Tonga</b>
             </h6>
             <p class="text-justify">
                 SSS is a government-administered insurance program that provides health, social, and financial protection to formal-sector employees. It is managed by the Social Security Board (SSB) under the Ministry of Labour, Immigration and Population and constitutes the country’s principal contributory social protection mechanism for workers.
@@ -104,7 +104,7 @@
                 <b>Current role</b>
             </h6>
             <p class="text-justify">
-                The Social Security Scheme is Fiji’s primary state-backed mechanism for worker welfare and risk protection, aligning with national objectives for inclusive social protection and labor rights compliance within the country’s evolving economic framework.
+                The Social Security Scheme is Tonga’s primary state-backed mechanism for worker welfare and risk protection, aligning with national objectives for inclusive social protection and labor rights compliance within the country’s evolving economic framework.
             </p>
 </template>
 

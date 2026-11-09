@@ -93,7 +93,7 @@
 <div class="card">
      <div class="d-flex justify-content-between p-3" style="background-color: #dfeaf1;">
         <div class="d-flex gap-2 align-items-center">
-            <h2 class="fw-bold">AIR CHARTER INFORMATION - Fiji </h2>
+            <h2 class="fw-bold">AIR CHARTER INFORMATION - Tonga </h2>
         </div>
 
         <div class="d-flex gap-2 ms-auto">

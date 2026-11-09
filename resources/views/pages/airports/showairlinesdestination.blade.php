@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title','More Details')
-@section('page-title', 'Fiji Airports')
+@section('page-title', 'Tonga Airports')
 
 @push('styles')
 
@@ -248,7 +248,7 @@
                 </div>
             </div>
             <div class="card-body overflow-auto">
-                <iframe src="https://globe.adsbexchange.com/?lat=16.9&lon=96.1&zoom=7" width="100%" height="600" frameborder="0"></iframe>
+                <iframe src="https://globe.adsbexchange.com/?lat=-21.1790&lon=-175.1982&zoom=7" width="100%" height="600" frameborder="0"></iframe>
             </div>
         </div>
     </div>

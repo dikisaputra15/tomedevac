@@ -144,7 +144,7 @@
                         {{ $police->location ?? '-' }},
                         {{ $city->city ?? '-' }},
                         {{ $district->district ?? '-' }},
-                        {{ $province->provinces_region ?? '-' }}, Fiji
+                        {{ $province->provinces_region ?? '-' }}, Tonga
                     </p>
                     <p>
                         <strong>Latitude:</strong> {{ $police->latitude }}

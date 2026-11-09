@@ -22,7 +22,7 @@
 
          <div class="col-md-12">
             <div class="form-group">
-                <label>Edit Division</label>
+                <label>Edit Island division</label>
                 <select class="form-control" name="province_id" id="province">
                     <?php
                         foreach ($provinces as $prov) {
@@ -44,7 +44,7 @@
 
          <div class="col-md-12">
             <div class="form-group">
-                <label>Edit Province</label>
+                <label>Edit District</label>
                 <select class="form-control" name="city" id="city">
                     <?php
                         foreach ($districts as $district) {
@@ -66,7 +66,7 @@
 
          <div class="col-md-12">
             <div class="form-group">
-                <label>Edit Tikina / district</label>
+                <label>Edit Town / village</label>
                 <select class="form-control" name="district_id" id="district">
                     <?php
                         foreach ($cities as $city) {
@@ -153,26 +153,15 @@
                     <label>National Police (HQ)</label>
                 </div>
 
-                <div class="form-check form-check-inline police-option {{ $police->category == 'Province / Territory' ? 'selected' : '' }}">
+                <div class="form-check form-check-inline police-option {{ $police->category == 'Local Police Post' ? 'selected' : '' }}">
                     <input class="form-check-input category-radio"
                         type="radio"
                         name="category"
-                        value="Province / Territory"
+                        value="Local Police Post"
                         data-icon="{{ asset('images/Layer2.png') }}"
-                        {{ $police->category == 'Province / Territory' ? 'checked' : '' }}>
+                        {{ $police->category == 'Local Police Post' ? 'checked' : '' }}>
                     <img src="{{ asset('images/Layer2.png') }}" width="16">
-                    <label>Province / Territory</label>
-                </div>
-
-                <div class="form-check form-check-inline police-option {{ $police->category == 'Municipality / Locality' ? 'selected' : '' }}">
-                    <input class="form-check-input category-radio"
-                        type="radio"
-                        name="category"
-                        value="Municipality / Locality"
-                        data-icon="{{ asset('images/Layer3.png') }}"
-                        {{ $police->category == 'Municipality / Locality' ? 'checked' : '' }}>
-                    <img src="{{ asset('images/Layer3.png') }}" width="16">
-                    <label>Municipality / Locality</label>
+                    <label>Local Police Post</label>
                 </div>
 
             </div>
@@ -383,14 +372,14 @@ document.addEventListener('DOMContentLoaded', function () {
                 url: '/get-districts/' + cityID,
                 type: 'GET',
                 success: function (data) {
-                    $('#district').empty().append('<option value="">-Choose Tikina / district-</option>');
+                    $('#district').empty().append('<option value="">-Choose Town / village-</option>');
                     $.each(data, function (key, district) {
                         $('#district').append('<option value="'+ district.id +'">'+ district.city +'</option>');
                     });
                 }
             });
         } else {
-            $('#district').html('<option value="">-Choose Tikina / district-</option>');
+            $('#district').html('<option value="">-Choose Town / village-</option>');
         }
     });
 </script>

@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title','More Details')
-@section('page-title', 'Fiji Airports')
+@section('page-title', 'Tonga Airports')
 
 @push('styles')
 <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />

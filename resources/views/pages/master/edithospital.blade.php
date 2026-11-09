@@ -29,7 +29,7 @@
 
         <div class="col-md-12">
             <div class="form-group">
-                <label>Edit Division</label>
+                <label>Edit Island division</label>
                 <select class="form-control" name="province_id" id="province">
                     <?php
                         foreach ($provinces as $prov) {
@@ -51,7 +51,7 @@
 
        <div class="col-md-12">
             <div class="form-group">
-                <label>Edit Province</label>
+                <label>Edit District</label>
                 <select class="form-control" name="city" id="city">
                     <?php
                         foreach ($districts as $district) {
@@ -73,7 +73,7 @@
 
          <div class="col-md-12">
             <div class="form-group">
-                <label>Edit Tikina / district</label>
+                <label>Edit Town / village</label>
                 <select class="form-control" name="district_id" id="district">
                     <?php
                         foreach ($cities as $city) {
@@ -110,11 +110,11 @@
             <div class="form-group">
                 <label>Edit Facility Level</label>
                 <select class="form-control" name="facility_level">
-                    <option value="Divisional Hospitals" {{ old('facility_level', $hospital->facility_level ?? '') == 'Divisional Hospitals' ? 'selected' : '' }}>
-                        Divisional Hospitals
+                    <option value="National Hospitals" {{ old('facility_level', $hospital->facility_level ?? '') == 'National Hospitals' ? 'selected' : '' }}>
+                        National Hospitals
                     </option>
-                    <option value="Sub-Divisional Hospitals" {{ old('facility_level', $hospital->facility_level ?? '') == 'Sub-Divisional Hospitals' ? 'selected' : '' }}>
-                        Sub-Divisional Hospitals
+                    <option value="District Hospitals" {{ old('facility_level', $hospital->facility_level ?? '') == 'District Hospitals' ? 'selected' : '' }}>
+                        District Hospitals
                     </option>
                     <option value="Clinic / Health Centre" {{ old('facility_level', $hospital->facility_level ?? '') == 'Clinic / Health Centre' ? 'selected' : '' }}>
                         Clinic / Health Centre
@@ -154,8 +154,8 @@
 
                 @php
                     $icons = [
-                        ['url' => 'https://id.concordreview.com/wp-content/plugins/w2gm/resources/images/map_icons/icons/_new/hospital-pin-red.png', 'label' => 'Divisional Hospitals'],
-                        ['url' => 'https://id.concordreview.com/wp-content/plugins/w2gm/resources/images/map_icons/icons/_new/hospital_pin-blue.png', 'label' => 'Sub-Divisional Hospitals'],
+                        ['url' => 'https://id.concordreview.com/wp-content/plugins/w2gm/resources/images/map_icons/icons/_new/hospital-pin-red.png', 'label' => 'National Hospitals'],
+                        ['url' => 'https://id.concordreview.com/wp-content/plugins/w2gm/resources/images/map_icons/icons/_new/hospital_pin-blue.png', 'label' => 'District Hospitals'],
                         ['url' => 'https://id.concordreview.com/wp-content/plugins/w2gm/resources/images/map_icons/icons/_new/hospital_pin-green.png', 'label' => 'Clinic / Health Centre'],
                     ];
                 @endphp
@@ -1060,14 +1060,14 @@
                 url: '/get-districts/' + cityID,
                 type: 'GET',
                 success: function (data) {
-                    $('#district').empty().append('<option value="">-Choose Tikina / district-</option>');
+                    $('#district').empty().append('<option value="">-Choose Town / village-</option>');
                     $.each(data, function (key, district) {
                         $('#district').append('<option value="'+ district.id +'">'+ district.city +'</option>');
                     });
                 }
             });
         } else {
-            $('#district').html('<option value="">-Choose Tikina / district-</option>');
+            $('#district').html('<option value="">-Choose Town / village-</option>');
         }
     });
 </script>

@@ -522,7 +522,7 @@
             <b>Role:</b> Highest commander of the MPF
         </p>
         <p class="p-modal text-justify">
-            Functions as the supreme professional and operational leader of the MPF, exercising overall command, control, and administration of the national police organization under the authority of the MOHA. The Chief is responsible for formulating policing strategies, directing nationwide law enforcement and internal security operations, overseeing organizational management and personnel, coordinating territorial and specialized police commands, and ensuring the implementation of government policies, laws, and public security objectives throughout Fiji.
+            Functions as the supreme professional and operational leader of the MPF, exercising overall command, control, and administration of the national police organization under the authority of the MOHA. The Chief is responsible for formulating policing strategies, directing nationwide law enforcement and internal security operations, overseeing organizational management and personnel, coordinating territorial and specialized police commands, and ensuring the implementation of government policies, laws, and public security objectives throughout Tonga.
         </p>
         <p class="p-modal text-justify">
             <b>Responsibilities:</b>
@@ -559,7 +559,7 @@
       <div class="modal-body p-0" style="overflow:hidden;">
         <iframe
             src="{{ asset('police-area-layer.html') }}"
-            title="Fiji Police Force — Police Area Layering and Administrative Equivalents"
+            title="Tonga Police Force — Police Area Layering and Administrative Equivalents"
             loading="lazy"
             style="display:block; width:100%; height:80vh; border:0;"
         ></iframe>
@@ -642,7 +642,7 @@
 <script>
 // === Inisialisasi Peta ===
 const map = new google.maps.Map(document.getElementById('map'), {
-    center: { lat: -17.7134, lng: 178.0650 },
+    center: { lat: -21.1790, lng: -175.1982 },
     zoom: 5,
     mapTypeId: 'roadmap',
     mapTypeControl: true,
@@ -1175,7 +1175,7 @@ function addPoliceMarkers(data) {
                 ${police.location || 'N/A'}
                 ${police.city_name || 'N/A'}
                 ${police.district_name || 'N/A'}
-                ${police.province_name || 'N/A'}, Fiji<br>
+                ${police.province_name || 'N/A'}, Tonga<br>
             <strong>Phone:</strong> ${police.telephone || 'N/A'}<br>
             <strong>Website:</strong> ${police.website || 'N/A'}<br>
         `;

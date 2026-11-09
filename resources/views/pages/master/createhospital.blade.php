@@ -22,9 +22,9 @@
 
          <div class="col-md-12">
             <div class="form-group">
-                <label>Division</label>
+                <label>Island division</label>
                 <select class="form-control" name="province_id" id="province">
-                        <option value="0">-Choosse Region / State-</option>
+                        <option value="0">-Choosse Island division-</option>
                     @foreach($provinces as $prov)
                         <option value="{{$prov->id}}">{{$prov->provinces_region}}</option>
                     @endforeach
@@ -34,18 +34,18 @@
 
         <div class="col-md-12">
             <div class="form-group">
-                <label for="city">Province</label>
+                <label for="city">District</label>
                 <select name="city" id="city" class="form-control">
-                    <option value="">-Choosse Province-</option>
+                    <option value="">-Choosse District-</option>
                 </select>
             </div>
         </div>
 
         <div class="col-md-12">
             <div class="form-group">
-                <label>Tikina / district</label>
+                <label>Town / village</label>
                 <select name="district_id" id="district" class="form-control">
-                    <option value="">-Choose Tikina / district-</option>
+                    <option value="">-Choose Town / village-</option>
                 </select>
             </div>
         </div>
@@ -74,11 +74,11 @@
             <div class="form-group">
                 <label>Facility Level</label>
                 <select class="form-control" name="facility_level">
-                    <option value="Divisional Hospitals">
-                        Divisional Hospitals
+                    <option value="National Hospitals">
+                        National Hospitals
                     </option>
-                    <option value="Sub-Divisional Hospitals">
-                        Sub-Divisional Hospitals
+                    <option value="District Hospitals">
+                        District Hospitals
                     </option>
                     <option value="Clinic / Health Centre">
                         Clinic / Health Centre
@@ -112,8 +112,8 @@
          <div class="col-md-12">
             <div class="form-group">
                 <label>Icon</label><br>
-                <input type="radio" name="icon" value="https://id.concordreview.com/wp-content/plugins/w2gm/resources/images/map_icons/icons/_new/hospital-pin-red.png"><img src="https://id.concordreview.com/wp-content/plugins/w2gm/resources/images/map_icons/icons/_new/hospital-pin-red.png" style="width:24; height:24;"> Divisional Hospitals
-                <input type="radio" name="icon" value="https://id.concordreview.com/wp-content/plugins/w2gm/resources/images/map_icons/icons/_new/hospital_pin-blue.png"><img src="https://id.concordreview.com/wp-content/plugins/w2gm/resources/images/map_icons/icons/_new/hospital_pin-blue.png" style="width:24; height:24;"> Sub-Divisional Hospitals
+                <input type="radio" name="icon" value="https://id.concordreview.com/wp-content/plugins/w2gm/resources/images/map_icons/icons/_new/hospital-pin-red.png"><img src="https://id.concordreview.com/wp-content/plugins/w2gm/resources/images/map_icons/icons/_new/hospital-pin-red.png" style="width:24; height:24;"> National Hospitals
+                <input type="radio" name="icon" value="https://id.concordreview.com/wp-content/plugins/w2gm/resources/images/map_icons/icons/_new/hospital_pin-blue.png"><img src="https://id.concordreview.com/wp-content/plugins/w2gm/resources/images/map_icons/icons/_new/hospital_pin-blue.png" style="width:24; height:24;"> District Hospitals
                 <input type="radio" name="icon" value="https://id.concordreview.com/wp-content/plugins/w2gm/resources/images/map_icons/icons/_new/hospital_pin-green.png"><img src="https://id.concordreview.com/wp-content/plugins/w2gm/resources/images/map_icons/icons/_new/hospital_pin-green.png" style="width:24; height:24;"> Clinic / Health Centre
             </div>
         </div>
@@ -925,14 +925,14 @@
                 url: '/get-districts/' + cityID,
                 type: 'GET',
                 success: function (data) {
-                    $('#district').empty().append('<option value="">-Choose Tikina / district-</option>');
+                    $('#district').empty().append('<option value="">-Choose Town / village-</option>');
                     $.each(data, function (key, district) {
                         $('#district').append('<option value="'+ district.id +'">'+ district.city +'</option>');
                     });
                 }
             });
         } else {
-            $('#district').html('<option value="">-Choose Tikina / district-</option>');
+            $('#district').html('<option value="">-Choose Town / village-</option>');
         }
     });
 </script>

@@ -21,7 +21,7 @@
 
          <div class="col-md-12">
             <div class="form-group">
-                <label>Division</label>
+                <label>Island division</label>
                 <select class="form-control" name="province_id" id="province">
                         <option value="0">-Division-</option>
                     @foreach($provinces as $prov)
@@ -33,18 +33,18 @@
 
         <div class="col-md-12">
             <div class="form-group">
-                <label for="city">Province</label>
+                <label for="city">District</label>
                 <select name="city" id="city" class="form-control">
-                    <option value="">-Choosse Province-</option>
+                    <option value="">-Choosse District-</option>
                 </select>
             </div>
         </div>
 
         <div class="col-md-12">
             <div class="form-group">
-                <label>Tikina / district</label>
+                <label>Town / village</label>
                 <select name="district_id" id="district" class="form-control">
-                    <option value="">-Choose Tikina / district-</option>
+                    <option value="">-Choose Town / village-</option>
                 </select>
             </div>
         </div>
@@ -197,14 +197,14 @@
                 url: '/get-districts/' + cityID,
                 type: 'GET',
                 success: function (data) {
-                    $('#district').empty().append('<option value="">-Choose Tikina / district-</option>');
+                    $('#district').empty().append('<option value="">-Choose Town / village-</option>');
                     $.each(data, function (key, district) {
                         $('#district').append('<option value="'+ district.id +'">'+ district.city +'</option>');
                     });
                 }
             });
         } else {
-            $('#district').html('<option value="">-Choose Tikina / district-</option>');
+            $('#district').html('<option value="">-Choose Town / village-</option>');
         }
     });
 </script>
